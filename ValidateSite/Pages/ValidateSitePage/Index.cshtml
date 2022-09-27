@@ -1,0 +1,22 @@
+﻿@page
+@model ValidateSite.Pages.ValidateSitePage.IndexModel
+@{
+    ViewData["Title"] = "Check Valid Sites Here";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6 w-100">
+            <h2 class="text-primary">Check Valid Sites Here</h2>
+        </div>
+    </div>
+</div>
+<br/><br/>
+
+<form method="post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Put your url to check</label>
+        <input asp-for="@Model.test1" type="url" value="@Model.test1" name ="url" class="form-control" id="checkurl" placeholder="Enter URL" />
+  </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+ </form>
