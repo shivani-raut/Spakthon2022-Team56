@@ -11,6 +11,7 @@ namespace ValidateSite.Pages.ValidateSitePage
         public IndexModel(IValidateSite validateSite)
         {
             _validateSite = validateSite;
+            test1 = "";
         }
         public string test1 { get; set; }
         public void OnGet()
@@ -24,7 +25,7 @@ namespace ValidateSite.Pages.ValidateSitePage
             test1=  _validateSite.ValidSiteName(url);
             if(test1 == url)
             {
-                test1 ="Valid site.";
+                test1 = "Valid site.";
             }
             else
             {

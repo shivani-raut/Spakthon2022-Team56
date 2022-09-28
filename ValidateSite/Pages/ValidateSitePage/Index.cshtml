@@ -11,12 +11,38 @@
         </div>
     </div>
 </div>
-<br/><br/>
+<br />
+<br />
 
 <form method="post">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Put your url to check</label>
-        <input asp-for="@Model.test1" type="url" value="@Model.test1" name ="url" class="form-control" id="checkurl" placeholder="Enter URL" />
-  </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Put your url to check</label>
+        <input asp-for="@Model.test1" type="url" value=""  name="url" class="form-control" id="checkurl" placeholder="Enter URL" />
+        <span id="alert-message">@Model.test1</span>
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
- </form>
+</form>
+
+<script>
+    const alertmsg = document.getElementById("alert-message");
+    function checkUrl(){
+
+
+        if (@Model.test1 === "Valid site.") {
+                //alertmsg.style.visibility = "visible";
+                alertmsg.style.color = "green";
+                //alertmsg.innerText = "Valid site.";
+                //console.log("@Model.test1"+" Valid site");
+            }
+            else
+            {
+               // alertmsg.style.visibility = "visible";
+                alertmsg.style.color = "red";
+                //alertmsg.innerText = "Not a Valid site.";
+                //console.log("@Model.test1"+"  Not Valid site");
+            }
+        }
+        
+    }
+    //setTimeout(checkUrl,1000)
+</script>

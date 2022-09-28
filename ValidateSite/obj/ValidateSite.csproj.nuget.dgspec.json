@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shivani.raut\\source\\repos\\ValidateSite\\ValidateSite\\ValidateSite.csproj": {}
+    "D:\\gltraining\\Spakthon2022-Team56\\ValidateSite\\ValidateSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shivani.raut\\source\\repos\\ValidateSite\\ValidateSite\\ValidateSite.csproj": {
+    "D:\\gltraining\\Spakthon2022-Team56\\ValidateSite\\ValidateSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivani.raut\\source\\repos\\ValidateSite\\ValidateSite\\ValidateSite.csproj",
+        "projectUniqueName": "D:\\gltraining\\Spakthon2022-Team56\\ValidateSite\\ValidateSite.csproj",
         "projectName": "ValidateSite",
-        "projectPath": "C:\\Users\\shivani.raut\\source\\repos\\ValidateSite\\ValidateSite\\ValidateSite.csproj",
+        "projectPath": "D:\\gltraining\\Spakthon2022-Team56\\ValidateSite\\ValidateSite.csproj",
         "packagesPath": "C:\\Users\\shivani.raut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivani.raut\\source\\repos\\ValidateSite\\ValidateSite\\obj\\",
+        "outputPath": "D:\\gltraining\\Spakthon2022-Team56\\ValidateSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivani.raut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://stealthdev.pkgs.visualstudio.com/_packaging/Monitoring%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
