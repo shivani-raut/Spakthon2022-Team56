@@ -22,7 +22,7 @@ namespace ValidateSite.Pages.ValidateSitePage
         {
             test1 = Request.Form["url"];
             string url = test1;
-            test1=  _validateSite.ValidSiteName(url);
+            test1 =  _validateSite.ValidSiteName(url);
             if(test1 == url)
             {
                 test1 = "Valid site.";
