@@ -11,7 +11,7 @@ namespace ValidateSite.Pages.ValidateSitePage
         public IndexModel(IValidateSite validateSite)
         {
             _validateSite = validateSite;
-            test1 = "";
+           // test1 = "";
         }
         public string test1 { get; set; }
         public void OnGet()
@@ -22,16 +22,27 @@ namespace ValidateSite.Pages.ValidateSitePage
         {
             test1 = Request.Form["url"];
             string url = test1;
-            test1 =  _validateSite.ValidSiteName(url);
-            if(test1 == url)
+            test1 = _validateSite.ValidSiteName(url);
+            if (test1 == "benign")
             {
-                test1 = "Valid site.";
+                test1 = "Valid Url";
+            }
+            else if (test1 == "defacement")
+            {
+                test1 = "Suspicious Url";
+            }
+            else if (test1 == "Not Harmful")
+            {
+                test1 = "Not Harmful";
+            }
+            else if (test1 == "phising")
+            {
+                test1 = "Spam";
             }
             else
             {
-                test1 = "Not a Valid site.";
+                test1 = "Not Valid Url";
             }
-
             return Page();
         }
     }

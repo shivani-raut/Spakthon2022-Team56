@@ -480,3 +480,9 @@
     font-size:2em;
     margin:0% 1%;
     }
+#alert-message {
+    margin-left: 675px;
+    margin-top: 50px;
+    color: #C43434;
+    font-weight: bold;
+}

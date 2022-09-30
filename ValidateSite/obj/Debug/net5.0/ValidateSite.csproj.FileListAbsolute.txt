@@ -78,3 +78,4 @@ D:\gltraining\Spakthon2022-Team56\ValidateSite\obj\Debug\net5.0\ValidateSite.pdb
 D:\gltraining\Spakthon2022-Team56\ValidateSite\obj\Debug\net5.0\ValidateSite.genruntimeconfig.cache
 D:\gltraining\Spakthon2022-Team56\ValidateSite\obj\Debug\net5.0\ref\ValidateSite.dll
 D:\gltraining\Spakthon2022-Team56\ValidateSite\obj\Debug\net5.0\ValidateSite.csproj.CopyComplete
+D:\gltraining\Spakthon2022-Team56\ValidateSite\bin\Debug\net5.0\CsvHelper.dll

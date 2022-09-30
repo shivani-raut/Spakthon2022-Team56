@@ -6,29 +6,29 @@
     <title>@ViewData["Title"] - ValidateSite</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ValidateSite</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/ValidateSitePage/Index">Check Valid Sites</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+       
+            <div class="nav-wrapper">
+                <div class="grad-bar"></div>
+                <nav class="navbar">
+                    <img src="https://validateme.online/wp-content/uploads/2019/10/validateme-logo.png"
+                         alt="Company Logo" />
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav no-search">
+                        <li class="nav-item"> <a class="nav-link text-dark" asp-area="" asp-page="/ValidateSitePage/Index"></a></li>
+                    <li class="nav-item"><a asp-page="/ValidateSitePage/Index">Home</a></li>
+                    <li class="nav-item price"><a href="#service">Service</a></li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -36,11 +36,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - ValidateSite - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

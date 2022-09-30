@@ -8,4 +8,12 @@
     <None Include="wwwroot\css\style.css" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dataset\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="28.0.1" />
+  </ItemGroup>
+
 </Project>
